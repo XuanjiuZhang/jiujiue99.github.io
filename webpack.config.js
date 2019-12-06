@@ -16,17 +16,13 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 9091,
-    host: '172.16.8.175'
+    port: 9999
   },
   externals: {
     "react": "React",
     "react-dom": "ReactDOM",
     "react-router-dom": "ReactRouterDOM",
-    "moment": "moment",
     "mobx": "mobx",
-    "lodash": "lodash",
-    "Chart": "chart.js"
   },
   module: {
     rules: [
