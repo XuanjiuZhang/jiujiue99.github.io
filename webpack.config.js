@@ -23,6 +23,7 @@ module.exports = {
     "react-dom": "ReactDOM",
     "react-router-dom": "ReactRouterDOM",
     "mobx": "mobx",
+    '@material-ui': "@material-ui"
   },
   module: {
     rules: [

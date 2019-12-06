@@ -25,6 +25,7 @@ import hljs from 'highlight.js/lib/highlight';
 import javascript from 'highlight.js/lib/languages/javascript';
 import './monokai-sublime.less'
 hljs.registerLanguage('javascript', javascript);
+hljs.initHighlightingOnLoad()
 
 const drawerWidth = 240;
 
@@ -99,7 +100,6 @@ function ResponsiveDrawer(props) {
   );
 
   useEffect(() => {
-    hljs.initHighlightingOnLoad()
   }, [])
 
   const { container } = props
