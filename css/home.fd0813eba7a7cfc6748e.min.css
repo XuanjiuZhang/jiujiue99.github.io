@@ -1,0 +1,30 @@
+.body {
+  background-color: #e0e0e0 !important;
+}
+.font-bold {
+  font-weight: bold !important;
+}
+.text-center {
+  text-align: center;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.react-calendar__tile--now {
+  background: rgba(0, 110, 192, 0.5) !important;
+}
+html {
+  font-size: 16px;
+}
+.input-validator-label {
+  padding-bottom: 12px !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+.input-validator-label span {
+  color: #DD2B33 !important;
+}
+.input-validator-label.error {
+  color: #DD2B33 !important;
+}
